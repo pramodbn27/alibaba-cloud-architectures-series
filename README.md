@@ -1,5 +1,7 @@
 # Alibaba Cloud Content Series
 
+Hands-on architectures for AI, data analytics, observability, and cloud-native systems using Alibaba Cloud services.
+
 A comprehensive guide to 9 essential Alibaba Cloud architectures and services. Each topic includes quick overviews, detailed tutorials, Jupyter notebooks, and production-ready code.
 
 ## 📚 Topics Covered
@@ -18,11 +20,9 @@ A comprehensive guide to 9 essential Alibaba Cloud architectures and services. E
 
 ```
 ├── blog/                    # Markdown blog posts
-│   ├── 01-qwen-overview.md   (5-min read)
-│   ├── 01-qwen-detailed.md   (15-min read)
-│   ├── 02-rag-overview.md
-│   ├── 02-rag-detailed.md
-│   └── ...
+│   ├── detailed/   
+│   └── overview/
+│   
 ├── docs/                    # Detailed technical guides (2–3 page deep dives)
 │   ├── qwen-model-studio.docx
 │   ├── rag-hologres-pipeline.docx
@@ -75,10 +75,11 @@ pip install alibaba-cloud-sdk qwen-client hologres-client alibaba-cloud-flink
 ## 1. Getting Started with Qwen on Alibaba Cloud Model Studio
 
 ### Quick Links
-- 📝 [Overview (5 min)](blog/01-qwen-overview.md)
-- 📖 [Detailed Guide (15 min)](blog/01-qwen-detailed.md)
-- 💻 [Jupyter Notebook](notebooks/01_qwen_setup.ipynb)
-- 🐍 [Python Implementation](code/qwen_client.py)
+- 📝 [Overview (5 min)](blog/overview/)
+- 📖 [Detailed Guide (15 min)](blog/detailed/)
+- 📄 [Technical Documentation (2–3 pages)](docs/)
+- 💻 [Jupyter Notebook](notebooks/)
+- 🐍 [Python Implementation](code/)
 
 ### What You'll Learn
 - Setup Qwen API credentials
@@ -233,25 +234,3 @@ pip install alibaba-cloud-sdk qwen-client hologres-client alibaba-cloud-flink
 | Multi-region Failover | $800-2000 | Redundancy cost |
 | Auto-scaling Webapp | $200-800 | Variable based on traffic |
 | Serverless Pipeline | $20-100 | Pay-per-execution |
-
-## 📊 Architecture Diagrams
-
-All architecture diagrams are available in the `diagrams/` directory in both ASCII and Mermaid formats.
-
-## 🔧 Troubleshooting
-
-## 📄 License
-
-MIT License
-
----
-
-**Last Updated:** March 2026
-**Target:** MVP-ready implementations
-**Maintainer:** Alibaba Cloud Content Team
-
-Common issues and solutions are documented in each topic's detailed guide.
-
-## 🤝 Contributing
-
-Feel free to add improvements, examples, or corrections.
