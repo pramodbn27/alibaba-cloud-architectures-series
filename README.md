@@ -234,3 +234,14 @@ pip install alibaba-cloud-sdk qwen-client hologres-client alibaba-cloud-flink
 | Multi-region Failover | $800-2000 | Redundancy cost |
 | Auto-scaling Webapp | $200-800 | Variable based on traffic |
 | Serverless Pipeline | $20-100 | Pay-per-execution |
+
+
+
+
+
+
+### Reference Documentation
+- [Alibaba Cloud Official Docs](https://www.alibabacloud.com/help)
+- [Qwen LLM](https://dashscope.console.aliyun.com)
+- [Hologres](https://www.alibabacloud.com/help/hologres)
+- [Function Compute](https://www.alibabacloud.com/help/functioncompute)
