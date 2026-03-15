@@ -23,22 +23,27 @@ A comprehensive guide to 9 essential Alibaba Cloud architectures and services. E
 │   ├── 02-rag-overview.md
 │   ├── 02-rag-detailed.md
 │   └── ...
-├── notebooks/              # Jupyter notebooks with hands-on examples
+├── docs/                    # Detailed technical guides (2–3 page deep dives)
+│   ├── qwen-model-studio.docx
+│   ├── rag-hologres-pipeline.docx
+│   ├── flink-hologres-analytics.docx
+│   └── ...
+├── notebooks/               # Jupyter notebooks with hands-on examples
 │   ├── 01_qwen_setup.ipynb
 │   ├── 02_rag_pipeline.ipynb
 │   └── ...
-├── code/                   # Production-ready Python implementations
+├── code/                    # Production-ready Python implementations
 │   ├── qwen_client.py
 │   ├── rag_pipeline.py
 │   ├── flink_consumer.py
 │   └── ...
-├── terraform/              # Infrastructure as Code
-│   ├── main.tf
-│   ├── qwen-setup/
-│   ├── rag-infrastructure/
-│   └── ...
-└── diagrams/              # Architecture diagrams (ASCII/Mermaid)
+└── terraform/               # Infrastructure as Code
+    ├── main.tf
+    ├── qwen-setup/
+    ├── rag-infrastructure/
+    └── ...
 ```
+
 
 ## 🚀 Quick Start
 
