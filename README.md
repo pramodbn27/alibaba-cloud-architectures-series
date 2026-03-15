@@ -38,10 +38,15 @@ A comprehensive guide to 9 essential Alibaba Cloud architectures and services. E
 │   ├── flink_consumer.py
 │   └── ...
 └── terraform/               # Infrastructure as Code
-    ├── main.tf
-    ├── qwen-setup/
+    ├── agent-infrastructure/
+    ├── autoscaling-infrastructure/
+    ├── failover-infrastructure/
+    ├── flink-infrastructure/
+    ├── observability-infrastructure/
+    ├── qwen-infrastructure/
     ├── rag-infrastructure/
-    └── ...
+    ├── serverless-infrastructure/
+    └── zerotrust-infrastructure/
 ```
 
 
