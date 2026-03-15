@@ -75,11 +75,10 @@ pip install alibaba-cloud-sdk qwen-client hologres-client alibaba-cloud-flink
 ## 1. Getting Started with Qwen on Alibaba Cloud Model Studio
 
 ### Quick Links
-- 📝 [Overview (5 min)](blog/overview/)
-- 📖 [Detailed Guide (15 min)](blog/detailed/)
-- 📄 [Technical Documentation (2–3 pages)](docs/)
-- 💻 [Jupyter Notebook](notebooks/)
-- 🐍 [Python Implementation](code/)
+- 📝 [Overview (5 min)](blog/overview/01-qwen-overview.md)
+- 📖 [Detailed Guide (15 min)](blog/detailed/01-qwen-detailed.md)
+- 💻 [Jupyter Notebook](notebooks/01_qwen_setup.ipynb)
+- 🐍 [Python Implementation](code/qwen_client.py)
 
 ### What You'll Learn
 - Setup Qwen API credentials
@@ -92,8 +91,8 @@ pip install alibaba-cloud-sdk qwen-client hologres-client alibaba-cloud-flink
 ## 2. Building a RAG Pipeline with Qwen + Hologres
 
 ### Quick Links
-- 📝 [Overview (5 min)](blog/02-rag-overview.md)
-- 📖 [Detailed Guide (20 min)](blog/02-rag-detailed.md)
+- 📝 [Overview (5 min)](blog/overview/02-rag-overview.md)
+- 📖 [Detailed Guide (20 min)](blog/detailed/02-rag-detailed.md)
 - 💻 [Jupyter Notebook](notebooks/02_rag_pipeline.ipynb)
 - 🐍 [Python Implementation](code/rag_pipeline.py)
 - 🏗️ [Terraform Setup](terraform/rag-infrastructure/main.tf)
@@ -109,8 +108,8 @@ pip install alibaba-cloud-sdk qwen-client hologres-client alibaba-cloud-flink
 ## 3. Real-Time Analytics with Hologres + Flink
 
 ### Quick Links
-- 📝 [Overview (5 min)](blog/03-flink-overview.md)
-- 📖 [Detailed Guide (20 min)](blog/03-flink-detailed.md)
+- 📝 [Overview (5 min)](blog/overview/03-flink-overview.md)
+- 📖 [Detailed Guide (20 min)](blog/detailed/03-flink-detailed.md)
 - 💻 [Jupyter Notebook](notebooks/03_flink_analytics.ipynb)
 - 🐍 [Python/Java Implementation](code/flink_consumer.py)
 - 🏗️ [Terraform Setup](terraform/flink-infrastructure/main.tf)
@@ -126,8 +125,8 @@ pip install alibaba-cloud-sdk qwen-client hologres-client alibaba-cloud-flink
 ## 4. Zero Trust Architecture on Alibaba Cloud
 
 ### Quick Links
-- 📝 [Overview (5 min)](blog/04-zerotrust-overview.md)
-- 📖 [Detailed Guide (15 min)](blog/04-zerotrust-detailed.md)
+- 📝 [Overview (5 min)](blog/overview/04-zerotrust-overview.md)
+- 📖 [Detailed Guide (20 min)](blog/detailed/04-zerotrust-detailed.md)
 - 💻 [Jupyter Notebook](notebooks/04_zerotrust_security.ipynb)
 - 🏗️ [Terraform Setup](terraform/zerotrust-infrastructure/main.tf)
 
@@ -142,8 +141,8 @@ pip install alibaba-cloud-sdk qwen-client hologres-client alibaba-cloud-flink
 ## 5. Observability on Alibaba Cloud: ARMS & SLS
 
 ### Quick Links
-- 📝 [Overview (5 min)](blog/05-observability-overview.md)
-- 📖 [Detailed Guide (20 min)](blog/05-observability-detailed.md)
+- 📝 [Overview (5 min)](blog/overview/05-observability-overview.md)
+- 📖 [Detailed Guide (20 min)](blog/detailed/05-observability-detailed.md)
 - 💻 [Jupyter Notebook](notebooks/05_observability_setup.ipynb)
 - 🐍 [Python Implementation](code/observability_client.py)
 - 🏗️ [Terraform Setup](terraform/observability-infrastructure/main.tf)
@@ -159,8 +158,8 @@ pip install alibaba-cloud-sdk qwen-client hologres-client alibaba-cloud-flink
 ## 6. Agent-Native Infrastructure for AI Workloads
 
 ### Quick Links
-- 📝 [Overview (5 min)](blog/06-agent-overview.md)
-- 📖 [Detailed Guide (20 min)](blog/06-agent-detailed.md)
+- 📝 [Overview (5 min)](blog/overview/06-agent-overview.md)
+- 📖 [Detailed Guide (20 min)](blog/detailed/06-agent-detailed.md)
 - 💻 [Jupyter Notebook](notebooks/06_agent_infrastructure.ipynb)
 - 🏗️ [Terraform Setup](terraform/agent-infrastructure/main.tf)
 
@@ -175,8 +174,8 @@ pip install alibaba-cloud-sdk qwen-client hologres-client alibaba-cloud-flink
 ## 7. Multi-region Failover Architecture
 
 ### Quick Links
-- 📝 [Overview (5 min)](blog/07-failover-overview.md)
-- 📖 [Detailed Guide (20 min)](blog/07-failover-detailed.md)
+- 📝 [Overview (5 min)](blog/overview/07-failover-overview.md)
+- 📖 [Detailed Guide (20 min)](blog/detailed/07-failover-detailed.md)
 - 💻 [Jupyter Notebook](notebooks/07_failover_setup.ipynb)
 - 🏗️ [Terraform Setup](terraform/failover-infrastructure/main.tf)
 
@@ -191,8 +190,8 @@ pip install alibaba-cloud-sdk qwen-client hologres-client alibaba-cloud-flink
 ## 8. Auto-scaling Web App with ECS + SLB + RDS
 
 ### Quick Links
-- 📝 [Overview (5 min)](blog/08-autoscaling-overview.md)
-- 📖 [Detailed Guide (25 min)](blog/08-autoscaling-detailed.md)
+- 📝 [Overview (5 min)](blog/overview/08-autoscaling-overview.md)
+- 📖 [Detailed Guide (25 min)](blog/detailed/08-autoscaling-detailed.md)
 - 💻 [Jupyter Notebook](notebooks/08_autoscaling_setup.ipynb)
 - 🏗️ [Terraform Setup](terraform/autoscaling-infrastructure/main.tf)
 
@@ -207,8 +206,8 @@ pip install alibaba-cloud-sdk qwen-client hologres-client alibaba-cloud-flink
 ## 9. Serverless Event-Driven Pipeline
 
 ### Quick Links
-- 📝 [Overview (5 min)](blog/09-serverless-overview.md)
-- 📖 [Detailed Guide (20 min)](blog/09-serverless-detailed.md)
+- 📝 [Overview (5 min)](blog/overview/09-serverless-overview.md)
+- 📖 [Detailed Guide (20 min)](blog/detailed/09-serverless-detailed.md)
 - 💻 [Jupyter Notebook](notebooks/09_serverless_pipeline.ipynb)
 - 🐍 [Python Implementation](code/serverless_functions.py)
 - 🏗️ [Terraform Setup](terraform/serverless-infrastructure/main.tf)
