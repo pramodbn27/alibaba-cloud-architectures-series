@@ -1,4 +1,4 @@
-# Alibaba Cloud MVP Content Series
+# Alibaba Cloud Content Series
 
 A comprehensive guide to 9 essential Alibaba Cloud architectures and services. Each topic includes quick overviews, detailed tutorials, Jupyter notebooks, and production-ready code.
 
@@ -235,12 +235,6 @@ All architecture diagrams are available in the `diagrams/` directory in both ASC
 
 ## 🔧 Troubleshooting
 
-Common issues and solutions are documented in each topic's detailed guide.
-
-## 🤝 Contributing
-
-Feel free to add improvements, examples, or corrections.
-
 ## 📄 License
 
 MIT License
@@ -250,3 +244,9 @@ MIT License
 **Last Updated:** March 2026
 **Target:** MVP-ready implementations
 **Maintainer:** Alibaba Cloud Content Team
+
+Common issues and solutions are documented in each topic's detailed guide.
+
+## 🤝 Contributing
+
+Feel free to add improvements, examples, or corrections.
